@@ -22,6 +22,7 @@ npm run verify              # deterministic browser gate (20/20)
 npm run shot                # release screenshots into shots/ (visual, slow)
 node scripts/preview.mjs    # fast canvas-only iteration
 node scripts/smallscreens.mjs  # compact + embed only
+node scripts/livecheck.mjs      # load the deployed Pages build and inspect facts
 ```
 
 `CHROME_PATH` overrides the browser for `verify`, `shot`, `preview` and `smallscreens` (default
@@ -91,7 +92,7 @@ Construction order: **geography → plan → buildings/landmarks → environment
 
 - Local project: `/Users/somphol/melbourne-miniature`.
 - Release file: `dist-single/index.html` (~896 KiB).
-- Pages copy: `docs/index.html`; deployed URL (once Pages is enabled):
-  <https://somphol.github.io/melbourne-miniature/>.
+- Pages copy: `docs/index.html`; deployed URL: <https://somphol.github.io/melbourne-miniature/>.
+  The live build was checked with `scripts/livecheck.mjs` (title, facts, zero external requests).
 - Design brief: `CITY.md`; provenance: `ATTRIBUTION.md`; changes: `CHANGELOG.md`.
 - No secrets, tokens or personal data belong in this repository.

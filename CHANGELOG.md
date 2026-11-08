@@ -19,3 +19,4 @@ Initial release of the from-scratch Melbourne miniature.
 - Verification: 2/2 test suites and 20/20 deterministic browser checks.
 - Release: one 896 KiB self-contained HTML file; 1.1M triangles and 175 draw calls at the default
   overview. `docs/index.html` is the Pages-ready copy.
+- Published to GitHub Pages: <https://somphol.github.io/melbourne-miniature/>.

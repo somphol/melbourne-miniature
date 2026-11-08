@@ -7,6 +7,8 @@ from Southbank; eight landmarks, nine ordinary building families, three bridges,
 day/night lighting and an English/Vietnamese interface. The release is one self-contained HTML file
 with no external assets or network calls.
 
+**Live:** <https://somphol.github.io/melbourne-miniature/>
+
 It is an interpretive miniature, not a survey map, GIS viewer or navigation app.
 
 | Day | Night |
@@ -68,7 +70,7 @@ cp dist-single/index.html docs/index.html
 ```
 
 Then use **Settings → Pages → Deploy from a branch → main / docs**. Keep `docs/.nojekyll`.
-The public copy, once published, is <https://somphol.github.io/melbourne-miniature/>.
+The public copy is <https://somphol.github.io/melbourne-miniature/>.
 
 The single file also runs from disk and inside the sandbox CSP: no images, fonts, fetches or
 storage calls.

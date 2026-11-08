@@ -13,5 +13,7 @@
 - `preview.mjs` — fast canvas-only preview: `node scripts/preview.mjs [ids...]`.
 - `smallscreens.mjs` — compact and embed captures in a fresh browser, so a long screenshot run does
   not exhaust the compositor.
+- `livecheck.mjs` — loads the deployed Pages build, waits for `window.__scene`, and prints the title,
+  facts, external-request count and errors.
 
 `dist-single/index.html` and `docs/index.html` are generated; do not hand-edit them.

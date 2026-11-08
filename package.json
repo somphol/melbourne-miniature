@@ -1,6 +1,7 @@
 {
   "name": "melbourne-miniature",
   "private": true,
+  "homepage": "https://somphol.github.io/melbourne-miniature/",
   "version": "0.1.0",
   "type": "module",
   "engines": {
